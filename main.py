@@ -6,7 +6,7 @@ def pedra_papel_tesoura():
 
             import random
 
-            print("=== Pedra Papeal Tesoura ===")
+            print("=== Pedra Papel Tesoura ===")
 
             opcoes = ["pedra", "papel", "tesoura"]
             maquina = random.choice(opcoes)
@@ -46,7 +46,7 @@ def pedra_papel_tesoura():
                     break
 
             elif usuario == "papel" and maquina == "pedra":
-                Print(f"{usuario} X {maquina}")
+                print(f"{usuario} X {maquina}")
                 print("Parabens voce venceu")
                 continuar = str(input("Deseja continuar (s/n): "))
                 if continuar == "s":
